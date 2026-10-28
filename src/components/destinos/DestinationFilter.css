@@ -1,0 +1,88 @@
+.destination-filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Search input */
+.dest-search-box {
+  position: relative;
+  max-width: 620px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.1rem;
+  color: var(--color-gray);
+  pointer-events: none;
+}
+
+.dest-search-input {
+  width: 100%;
+  padding: 0.9rem 2.8rem 0.9rem 2.9rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  border: 1.5px solid var(--color-gray-border);
+  border-radius: var(--radius-full);
+  outline: none;
+  background-color: #ffffff;
+  color: var(--color-primary);
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.dest-search-input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-subtle);
+}
+
+.clear-search-btn {
+  position: absolute;
+  right: 1.1rem;
+  background: none;
+  font-size: 1.4rem;
+  color: var(--color-gray);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.clear-search-btn:hover {
+  color: var(--color-primary);
+}
+
+/* Category Pills */
+.categories-pill-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.category-pill {
+  padding: 0.5rem 1.1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  background-color: var(--color-gray-light);
+  color: var(--color-primary);
+  border: 1px solid transparent;
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.category-pill:hover {
+  background-color: #E2E6EA;
+  color: var(--color-accent);
+}
+
+.category-pill.active {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}

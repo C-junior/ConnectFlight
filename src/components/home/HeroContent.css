@@ -1,0 +1,76 @@
+.hero-content-wrapper {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Figma Title: "O seu próximo destino pode estar aqui..." */
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 2.35rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.01em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-regular {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.highlight-destino {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* Subtext blocks */
+.hero-text-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-body);
+}
+
+.hero-lead-text {
+  font-size: 1rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+.hero-description-text {
+  font-size: 0.95rem;
+  color: var(--color-gray);
+  line-height: 1.65;
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.hero-cta-hint {
+  font-size: 0.95rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+.bold-text {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-lead-text,
+  .hero-description-text,
+  .hero-cta-hint {
+    font-size: 0.875rem;
+  }
+}

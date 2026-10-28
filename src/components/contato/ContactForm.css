@@ -1,0 +1,135 @@
+.contact-form-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-gray-border);
+  border-radius: var(--radius-lg);
+  padding: 2.2rem;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-form-title {
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+}
+
+.contact-form-subtitle {
+  font-size: 0.9rem;
+  color: var(--color-gray);
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+
+.contact-form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.form-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid var(--color-gray-border);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.92rem;
+  outline: none;
+  background-color: #ffffff;
+  color: var(--color-primary);
+  transition: var(--transition-fast);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-subtle);
+}
+
+.form-input.has-error,
+.form-textarea.has-error {
+  border-color: var(--color-error);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+.error-text {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--color-error);
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+.submit-form-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* Success banner */
+.contact-success-banner {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background-color: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.success-icon {
+  color: #16A34A;
+}
+
+.contact-success-banner h4 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: #14532D;
+}
+
+.contact-success-banner p {
+  font-size: 0.9rem;
+  color: #166534;
+  max-width: 420px;
+  line-height: 1.5;
+}
+
+.new-message-btn {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .contact-form-card {
+    padding: 1.5rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

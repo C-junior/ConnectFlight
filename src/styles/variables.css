@@ -1,0 +1,52 @@
+:root {
+  /* Exact Figma Palette */
+  --color-primary: #3F3D56;
+  --color-primary-dark: #2F2D42;
+  --color-primary-light: #52506B;
+  
+  --color-accent: #EE24FF;
+  --color-accent-hover: #D800EA;
+  --color-accent-light: #F780FF;
+  --color-accent-subtle: rgba(238, 36, 255, 0.10);
+  --color-accent-glow: rgba(238, 36, 255, 0.25);
+  
+  --color-gray: #828282;
+  --color-gray-dark: #3F3D56;
+  --color-gray-light: #ECEFF2;
+  --color-gray-border: #ECEFF2;
+  
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F8FAFC;
+  --color-card-bg: #FFFFFF;
+  
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+
+  /* Typography */
+  --font-heading: 'Dosis', sans-serif;
+  --font-title: 'Dosis', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  /* Layout & Spacing */
+  --container-max-width: 1200px;
+  --header-height: 72px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(63, 61, 86, 0.05);
+  --shadow-md: 0 6px 18px rgba(63, 61, 86, 0.08);
+  --shadow-lg: 0 12px 30px rgba(63, 61, 86, 0.12);
+  --shadow-accent: 0 8px 24px rgba(238, 36, 255, 0.25);
+  --text-shadow-hero: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-smooth: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}

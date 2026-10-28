@@ -1,0 +1,139 @@
+.offer-banner-box {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 2.2rem 2.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-banner-box::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(238, 36, 255, 0.25) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.offer-banner-content {
+  max-width: 600px;
+}
+
+.offer-banner-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: rgba(238, 36, 255, 0.2);
+  color: var(--color-accent-light);
+  border: 1px solid rgba(238, 36, 255, 0.4);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
+}
+
+.offer-banner-title {
+  font-family: var(--font-heading);
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 0.6rem;
+}
+
+.offer-banner-title span {
+  color: var(--color-accent);
+}
+
+.offer-banner-desc {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+
+/* Countdown */
+.offer-countdown-wrap {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 1.25rem 1.6rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.countdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.countdown-blocks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  min-width: 54px;
+}
+
+.time-val {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.time-label {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
+
+.time-sep {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+@media (max-width: 860px) {
+  .offer-banner-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.75rem;
+  }
+
+  .offer-countdown-wrap {
+    width: 100%;
+  }
+
+  .countdown-blocks {
+    justify-content: center;
+  }
+}

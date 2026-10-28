@@ -1,0 +1,16 @@
+.contato-page {
+  padding: 3rem 0 4rem;
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,82 @@
+export const offersData = [
+  {
+    id: 101,
+    title: "Super Pacote Salvador & Morro de São Paulo",
+    destination: "Bahia, Brasil",
+    discountBadge: "35% OFF",
+    originalPrice: "R$ 2.900",
+    promotionalPrice: "R$ 1.885",
+    installments: "10x de R$ 188,50 sem juros",
+    validUntil: "31 de Outubro",
+    image: "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?auto=format&fit=crop&w=800&q=80",
+    badgeType: "hot",
+    tags: ["Preço Arrasador", "Mais Vendido"],
+    inclusions: [
+      { icon: "Plane", label: "Passagens aéreas ida e volta inclusas" },
+      { icon: "Building2", label: "Hotel resort beira-mar com piscina" },
+      { icon: "Coffee", label: "Café da manhã buffet diário incluso" },
+      { icon: "ShieldCheck", label: "Seguro viagem completo nacional" },
+    ],
+    description: "Desfrute do Pelourinho, das praias paradisíacas da Bahia e das piscinas naturais de Morro de São Paulo com pacote all-service."
+  },
+  {
+    id: 102,
+    title: "Pacote Especial Buenos Aires & Mendoza",
+    destination: "Argentina",
+    discountBadge: "40% OFF",
+    originalPrice: "R$ 4.200",
+    promotionalPrice: "R$ 2.520",
+    installments: "10x de R$ 252,00 sem juros",
+    validUntil: "2 dias restantes",
+    image: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=800&q=80",
+    badgeType: "lightning",
+    tags: ["Relâmpago", "Internacional"],
+    inclusions: [
+      { icon: "Plane", label: "Passagens aéreas internacionais ida e volta" },
+      { icon: "Building2", label: "Hotel boutique em Palermo" },
+      { icon: "Coffee", label: "Café da manhã continental" },
+      { icon: "ShieldCheck", label: "Seguro viagem internacional cobertura médica" },
+    ],
+    description: "Show de tango com jantar exclusivo, vinhos de altitude em Mendoza e a sofisticada arquitetura de Buenos Aires."
+  },
+  {
+    id: 103,
+    title: "Pacote Família Fortaleza & Beach Park",
+    destination: "Ceará, Brasil",
+    discountBadge: "25% OFF",
+    originalPrice: "R$ 3.600",
+    promotionalPrice: "R$ 2.700",
+    installments: "10x de R$ 270,00 sem juros",
+    validUntil: "30 de Novembro",
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
+    badgeType: "family",
+    tags: ["Ideal para Família", "Parque Aquático"],
+    inclusions: [
+      { icon: "Plane", label: "Passagens aéreas ida e volta" },
+      { icon: "Building2", label: "Resort com recreação infantil" },
+      { icon: "Coffee", label: "Café da manhã incluso" },
+      { icon: "ShieldCheck", label: "Seguro viagem para toda a família" },
+    ],
+    description: "Diversão garantida para adultos e crianças com passaportes inclusos para o maior parque aquático da América Latina."
+  },
+  {
+    id: 104,
+    title: "Pacote Romântico Roma & Costa Amalfitana",
+    destination: "Itália",
+    discountBadge: "30% OFF",
+    originalPrice: "R$ 9.800",
+    promotionalPrice: "R$ 6.860",
+    installments: "10x de R$ 686,00 sem juros",
+    validUntil: "Últimas 4 vagas",
+    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80",
+    badgeType: "romantic",
+    tags: ["Lua de Mel", "Exclusivo"],
+    inclusions: [
+      { icon: "Plane", label: "Passagens aéreas com franquia de bagagem" },
+      { icon: "Building2", label: "Hotéis selecionados com vista panorâmica" },
+      { icon: "Coffee", label: "Café da manhã estilo italiano" },
+      { icon: "ShieldCheck", label: "Seguro viagem Schengen obrigatório" },
+    ],
+    description: "Cenários de cinema à beira do Mediterrâneo, história viva no Coliseu e alta gastronomia italiana."
+  }
+];
