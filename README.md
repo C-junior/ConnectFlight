@@ -4,7 +4,7 @@
 > **Disciplina:** Programação para WEB II (4º Período)  
 > **Docente:** Bruno Bandeira Fernandes  
 > **Instituição:** Universidade Estadual do Tocantins (UNITINS)  
-> **Valor:** 2,0 pontos (Composição da nota A2)
+
 
 ---
 
@@ -119,24 +119,4 @@ aula10/
 
 ---
 
-## 📤 Instruções para Publicação no GitHub
 
-Para entregar o link do repositório no portal da disciplina:
-
-1. No terminal, dentro da pasta `aula10`, inicialize o repositório Git:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: criacao da pagina inicial e telas complementares em React"
-   git branch -M main
-   ```
-
-2. Crie um repositório público no seu GitHub (exemplo: `connectflight-react`).
-
-3. Vincule e envie o código:
-   ```bash
-   git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-   git push -u origin main
-   ```
-
-4. Copie o link do repositório público e submeta no campo de entrega da atividade!
