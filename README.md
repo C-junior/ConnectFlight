@@ -27,7 +27,7 @@ Este projeto consiste na reprodução fiel do protótipo do Figma proposto na di
 | **Muted Gray** | `#828282` | Textos secundários, parágrafos explicativos e legendas |
 | **Light Gray / Background** | `#ECEFF2` | Linha divisória, fundos suaves e bordas sutis |
 
-- **Tipografia:** `Poppins` (títulos e destaques numéricos) e `Inter` (corpo de texto e interface).
+- **Tipografia:** `Dosis` (títulos e destaques numéricos) e `Opensans` (corpo de texto e interface).
 
 ---
 
@@ -93,7 +93,7 @@ aula10/
 ### Passo a passo
 1. Abra o terminal na pasta do projeto:
    ```bash
-   cd "aula10"
+   cd "SuaPasta"
    ```
 
 2. Instale as dependências:
